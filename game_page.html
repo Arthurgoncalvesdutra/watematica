@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Adivinhe a Palavra</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body>
+	<h4 id="playerpug1"></h4><span id="chupchup_pontuação_1"></span>
+	<br>
+	<h4 id="playerpug2"></h4><span id="chupchup_pontuação_2"></span>
+	<div class="container">
+		<center>
+			<h2 style="color: white;">Adivinhe a Palavra!</h2>
+			<h3 id="fulano_1_pergunta"></h3>
+			<h3 id="fulano_2_responde"></h3>
+			<div id="sida" ></div>
+			<br>
+			<br>
+
+			<label>envie seu numero: <b style="color: rgb(55, 126, 81)">Utilize numeros de 1 a 100 
+				numeros</b></label>
+				<input type="number" id="dois_numeros_de_1a100" placeholder="digite seu numero aqui">
+		<br>
+			<label>envie seu numero: <b style="color: rgb(55, 126, 81)">Utilize numeros de 1 a 100 
+				numeros</b></label>
+			<input type="number" id="dois_numeros_de_100a1" placeholder="digite seu numero aqui">
+	<br>
+			<button onclick="nuctuc()" class="btn btn-success" >mostra pro dente</button>
+		</center>
+	</div>
+
+	<script src="game_page.js"></script>
+</body>
+
+</html>
